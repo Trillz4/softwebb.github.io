@@ -1,0 +1,83 @@
+.heading {
+  color: purple;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+@font-face {
+  font-family: "MyWebFont";
+  src: url("myfont.woff2") format("woff2");
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url(/jesy.jpg);
+}
+.xsom {
+  color: royalblue;
+  line-height: 51px;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+.img1 {
+  width: 721px;
+  height: 433px;
+  border: 3px solid white;
+}
+img {
+  display: block;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: purple;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(61, 1, 61);
+  color: white;
+}
+.xsom2 {
+  color: rgb(4, 4, 56);
+  line-height: 51px;
+  font-weight: 600;
+  text-align: center;
+}
+.text-gradient {
+  background: linear-gradient(
+    to right,
+    #ffff00,
+    #daff55 45%,
+    #3fb808 50%,
+    #088632 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+}
+.normfont {
+  color: black;
+}
+.alicenter {
+  text-align: center;
+}
+@media screen and (min-width: 525px) {
+
